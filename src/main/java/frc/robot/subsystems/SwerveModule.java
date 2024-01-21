@@ -10,8 +10,9 @@ import edu.wpi.first.math.kinematics.SwerveModuleState;
 import edu.wpi.first.wpilibj.AnalogInput;
 import edu.wpi.first.wpilibj.RobotController;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
-import frc.robot.Constants.DriveConstants;
+
 import frc.robot.Constants.ModuleConstants;
+import frc.robot.Constants.DriveConstants;
 
 public class SwerveModule {
     
