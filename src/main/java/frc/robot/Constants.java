@@ -42,15 +42,15 @@ public static final class DriveConstants {
         new Translation2d(-kWheelBase / 2, -kTrackWidth / 2),
         new Translation2d(-kWheelBase / 2, kTrackWidth / 2));
 
-    public static final int kFrontLeftDriveMotorPort = 8;
-    public static final int kBackLeftDriveMotorPort = 2;
-    public static final int kFrontRightDriveMotorPort = 6;
-    public static final int kBackRightDriveMotorPort = 4;
+    public static final int kFrontLeftDriveMotorPort = 5;
+    public static final int kBackLeftDriveMotorPort = 7;
+    public static final int kFrontRightDriveMotorPort = 2;
+    public static final int kBackRightDriveMotorPort = 3;
 
-    public static final int kFrontLeftTurningMotorPort = 7;
-    public static final int kBackLeftTurningMotorPort = 1;
-    public static final int kFrontRightTurningMotorPort = 5;
-    public static final int kBackRightTurningMotorPort = 3;
+    public static final int kFrontLeftTurningMotorPort = 6;
+    public static final int kBackLeftTurningMotorPort = 8;
+    public static final int kFrontRightTurningMotorPort = 1;
+    public static final int kBackRightTurningMotorPort = 4;
 
     public static final boolean kFrontLeftTurningEncoderReversed = true;
     public static final boolean kBackLeftTurningEncoderReversed = true;
@@ -97,4 +97,4 @@ public static final class DriveConstants {
         public static final double kDeadband = 0.05;
     }
 }
-}
+

@@ -13,7 +13,7 @@ import frc.robot.subsystems.SwerveSubsystem;
 public class RobotContainer {
   
   private final SwerveSubsystem swerveSubsystem = new SwerveSubsystem();
-  private final Joystick driverJoystick = new Joystick(OI.Constants.kDriverControllerPort);
+  private final Joystick driverJoystick = new Joystick(OIConstants.kDriverControllerPort);
   
   /** The container for the robot. Contains subsystems, OI devices, and commands. */
   public RobotContainer() {
@@ -34,6 +34,6 @@ public class RobotContainer {
 
 
   public Command getAutonomousCommand() {
-    
+    return null;
   }
 }
